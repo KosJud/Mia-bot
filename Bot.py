@@ -3,7 +3,7 @@ from aiogram.utils import executor
 from datetime import date
 import os
 
-TOKEN = os.getenv("TOKEN")
+TOKEN = os.getenv("7511513584:AAGJIbNqn8gfHwgL0siWLbY_WgR5T5F_QmA")
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
