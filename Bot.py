@@ -16,7 +16,7 @@ if not TOKEN:
 bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 dp = Dispatcher()
 
-birth_date = date(2025, 1, 30)
+birth_date = date(2026, 1, 30)
 
 def cat_to_human_years(cat_age: float) -> int:
     if cat_age < 1:
